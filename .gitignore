@@ -1,0 +1,31 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+58711a00-4145-49d1-a765-35f0b68d3d3c/node_modules
+ad892783-9ef9-4ad2-a62b-6f6c4278eb8b/node_modules
+
+# testing
+58711a00-4145-49d1-a765-35f0b68d3d3c/coverage
+ad892783-9ef9-4ad2-a62b-6f6c4278eb8b/coverage
+# production
+58711a00-4145-49d1-a765-35f0b68d3d3c/build
+ad892783-9ef9-4ad2-a62b-6f6c4278eb8b/build
+# bin
+58711a00-4145-49d1-a765-35f0b68d3d3c/bin
+ad892783-9ef9-4ad2-a62b-6f6c4278eb8b/bin
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.idea
+.env
+junit.xml
+unit.xml
